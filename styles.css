@@ -138,3 +138,21 @@ footer{
     padding: 10px;
     text-align: center;
 }
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.images li:hover{
+    position: relative;
+    top: -6px;
+}
+
+.join input:focus{
+    border: 2px solid red;
+    outline: none;
+}
+
+.join input:valid{
+    border: 4px solid green;
+}
